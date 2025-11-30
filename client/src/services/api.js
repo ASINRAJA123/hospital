@@ -4,7 +4,7 @@ import axios from 'axios';
 import { toast } from '../components/common/Toaster'; // Or wherever your toaster is
 
 // Use environment variables for the API URL for flexibility
-const API_URL =   'http://localhost:8000';
+const API_URL =   'https://hospital.creozen.co.uk';
 
 const apiClient = axios.create({
   baseURL: API_URL,
